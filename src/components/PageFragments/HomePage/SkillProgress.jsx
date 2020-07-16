@@ -9,28 +9,28 @@ const SkillsProgress = () => (
       <Col xs={24} sm={24} md={12}>
 
         <ProgressBar
-          percent={80}
+          percent={60}
           text="Javascript"
         />
         <ProgressBar
-          percent={95}
+          percent={70}
           text="ReactJS"
         />
         <ProgressBar
-          percent={85}
+          percent={50}
           text="Gatsby"
         />
         <ProgressBar
-          percent={90}
+          percent={40}
           text="NodeJS"
         />
       </Col>
       <Col xs={24} sm={24} md={12}>
-        <ProgressBar
+        {/* <ProgressBar
           percent={70}
           text="Python"
-        />
-        <ProgressBar
+        /> */}
+        {/* <ProgressBar
           percent={90}
           text="Mysql"
         />
@@ -41,10 +41,11 @@ const SkillsProgress = () => (
         <ProgressBar
           percent={80}
           text="Wordpress"
-        />
+        /> */}
       </Col>
     </Row>
   </div>
 );
 
+// eslint-disable-next-line eol-last
 export default SkillsProgress;
