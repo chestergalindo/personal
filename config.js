@@ -6,10 +6,10 @@ module.exports = {
   author: 'Cesar Galindos',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  // disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
   pages: {
     home: '/',
-    // blog: 'blog',
+    blog: 'blog',
     // contact: 'contact',
     // resume: 'resume',
     // tag: 'tags',
