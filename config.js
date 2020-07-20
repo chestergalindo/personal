@@ -6,7 +6,7 @@ module.exports = {
   author: 'Cesar Galindos',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  // disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
   pages: {
     home: '/',
     // blog: 'blog',
@@ -16,7 +16,7 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/chestergalindo',
-    // facebook: 'https://www.facebook.com/rolwin.monteiro',
+    // facebook: 'https://www.facebook.com',
     twitter: 'https://twitter.com/chestergalindos',
     instagram: 'https://www.instagram.com/chestergalindos',
     rss: '/rss.xml',
