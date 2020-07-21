@@ -28,7 +28,7 @@ const DomContent = () => (
         </h2>
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>Frontend Developer</div>
-      <div className="centerAlign box">
+      <div className="centerAlign box social">
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
