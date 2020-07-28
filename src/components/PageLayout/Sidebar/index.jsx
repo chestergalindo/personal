@@ -59,7 +59,7 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <a href="https://drive.google.com/file/d/1WTi9q83Mg8pFIldTUmvZ07jJsJR81tii/view?usp=sharing" target="_blank">Download CV</a>
+        <a href="https://drive.google.com/file/d/1R6-go6azbyr1ozuI93ORLqBujI_kqigL/view?usp=sharing" target="_blank">Download CV</a>
       </div>
     </div>
   </aside>
